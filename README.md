@@ -7,3 +7,6 @@ Here are the raw data:
 
 A full description is avaliable at:
 <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">here</a>
+
+run_analysis.R follows below steps to get the clean dataset
+

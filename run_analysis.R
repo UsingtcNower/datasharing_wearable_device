@@ -41,3 +41,8 @@ data[, "Activity"] <- activity_map[data[,"Activity"], "V2"]
 data_cleaned <- aggregate(subset(data, select=-c(Subject,Activity)),
                           by=list(Subject=data$Subject, Activity=data$Activity), FUN=mean)
 
+data_cleaned <- melt(data_cleaned, id=c("Subject", "Activity"), measure.vars=colnames(data_cleaned)[-c(1,2)])
+colnames(data_cleaned) <- c("Subject","Activity","variable","mean")
+
+#save the df
+write.table(data_cleaned, file="data_cleaned.txt", row.name=FALSE)
