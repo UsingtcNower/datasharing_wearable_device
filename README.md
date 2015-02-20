@@ -8,7 +8,7 @@ Here are the raw data:
 A full description is avaliable at:
 <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">here</a>
 
-run_analysis.R follows below steps to get the clean dataset
+run\_analysis.R follows below steps to get the clean dataset
 *1. Merge the train and test data into one dataset
 *2. Extracts onlt the measures on the mean and standard deviation for each measurement
 *3. Uses descriptive activity names to name the activies.
