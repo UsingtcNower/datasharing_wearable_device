@@ -16,3 +16,6 @@ run\_analysis.R follows below steps to get the clean dataset
 4. Label the data with descriptive variable names
 5. Create one tidy data set with the average of each variable for each activity and each subject.
 6. Save the new data set into the txt file named data\_cleaned.txt
+
+After running the script, you will get the txt file data\_cleaned.txt.
+And you can find the detailed description of the variables in codebook.
